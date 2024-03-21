@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number and Square</title>
+</head>
+<body>
+    <h1>Numbers and Their Squares</h1>
+    <p id="output"></p>
+
+    <script>
+        for (let i = 1; i <= 10; i++) {
+            document.getElementById('output').innerHTML += `Number: ${i}, Square: ${i*i} <br>`;
+        }
+    </script>
+</body>
+</html>
