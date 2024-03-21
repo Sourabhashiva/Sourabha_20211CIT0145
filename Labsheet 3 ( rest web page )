@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant</title>
+    <style>
+        body {
+            font-family: 'Aparajita';
+            background-color: #785da5bf;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4f4;
+            color: black;
+            text-align: center;
+            padding: 0px 10;
+        }
+        h1 {
+            margin: 0;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .menu-item {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px #f7f7(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+        }
+        .menu-item img {
+            max-width: 100%;
+            border-radius: 90px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome We Are Ready To Recieve Your Order😊!!</h1>
+        <h2>ELEGANCE AND GRACE</h2>
+        
+    </header>
+    <div class="menu">
+        <img src="c:\Users\ASUS\Downloads\lab3" alt="Restaurant Ambiance" width="1500" height="800">
+    </div>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="c:\Users\ASUS\Downloads\Appetizers.webp" alt="Menu 1">
+            <h2>Appetizers</h2>
+            <p>Delicious starters to kick off your meal.</p>
+            <p>$10.02</p>
+        </div>
+        <div class="menu-item">
+            <img src="c:\Users\ASUS\Downloads\vegetarian.avif" alt="Menu 2">
+            <h3>Vegetarian Delight</h3>
+            <p>Description of the dish</p>
+            <p>$8.99</p>
+        </div>
+        <div class="menu-item">
+            <img src="c:\Users\ASUS\Downloads\maincourse.cms" alt="Menu 3">
+            <h2>Main Courses</h2>
+            <p>From hearty meals to light bites.</p>
+            <p>$9.99</p>
+        </div>
+        <div class="menu-item">
+            <img src="c:\Users\ASUS\Downloads\healthy.png" alt="Menu 3">
+            <h3>Healthy Option</h3>
+            <p>Description of the dish</p>
+            <p>$9.99</p>
+        </div>
+        <div class="menu-item">
+            <img src="c:\Users\ASUS\Downloads\desert.jpg" alt="Menu 2">
+            <h2>Desserts</h2>
+            <p>Sweet treats to satisfy your cravings.</p>
+            <p>$8.99</p>
+        </div>
+</body>
+</html>
